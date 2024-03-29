@@ -1,0 +1,17 @@
+.socialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    }
+.icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: var(--black);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all ease 0.3s;
+    }
